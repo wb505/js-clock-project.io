@@ -1,0 +1,158 @@
+body{
+  background-color: #0a0464e0;
+  height: 62em;
+  width: 100%;
+}
+
+h3{
+  font-size :6vw;
+  color:#fff ;
+  margin-left:29% ;
+  margin-top: 15%;
+  padding: ;
+}
+
+hr{
+  width:6em;
+  height: 2px;
+  background-color: red;
+ text-align: center;
+  border-radius :50px;
+  
+}
+
+.clock{
+  background-image:url('clock.png') ;
+  width:80vw;
+  height: 80vw;
+  background-color:#140d61;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin:10% auto;
+  position: relative;
+  overflow: hidden;
+  border-radius : 50%;
+  margin-top: 10%;
+}
+
+.hour, .minute, .second{
+  
+  background-color: red;
+  position: absolute;
+  border-radius:10px;
+  transform-origin: bottom;
+  
+  
+}
+
+.hour{
+  height: 19.9%;
+  background-color: #0c1884;
+  width:3%;
+  margin-left:48.4%;
+  margin-top:31%;
+  
+}
+
+.minute{
+  height: 26.5%;
+  background-color: #202264;
+  width: 2%;
+  margin-left:48.8%;
+  margin-top:24%;
+}
+
+.second{
+  width:1%;
+  height: 32.5%;
+  background-color: #06132A;
+  margin-left:49.3%;
+  margin-top:18%;
+  
+}
+
+.circle{
+  width:3%;
+  height: 3%;
+  background-color: #0f0964f6;
+  border-radius :50%;
+  padding:1.7%;
+ margin-left:46.7%;
+ margin-top:47.1%;
+ z-index: 6;
+ 
+  
+}
+
+
+/*====digital clock*/
+
+.digi-clock{
+  width:95vw;
+  height:55vw;
+ /* background-color: #082165;*/
+  color:#fff;
+  margin:33% auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius :14px;
+}
+
+h2{
+  position: absolute;
+  z-index: 3;
+  margin-top:-32%;
+  font-size: 6vw;
+}
+
+.d-h, .d-m, .d-s{
+ 
+  padding: 5%;
+  font-weight: bolder;
+  position: relative;
+  font-size: 7vw;
+  border-radius :10px;
+ /* background-color: #030336;
+ background-color: #08055ce5;*/
+ background-color: #191475e2;
+  box-shadow: 0px 5px 25px rgba(0,0,0,0.6);
+  border: 2px solid rgba(2,3,2,0.1);
+}
+
+ span{
+  font-weight:bolder;
+  font-size :7vw;
+  padding:2%;
+}
+
+.d-h{
+  
+}
+
+.d-m{
+  
+}
+
+.d-s{
+  
+}
+
+.ampm{
+  position: absolute;
+  margin-right: -76%;
+  margin-top:-7%;
+  height: 1em;
+  font-size :3vw;
+}
+
+
+.button{
+  background-color: #162171e5;
+  padding:3%;
+  color:#fff;
+  font-size: 3vw;
+  margin-left: 3em;
+  border-radius :10px;
+  margin-bottom:4%;
+}
